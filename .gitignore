@@ -1,48 +1,38 @@
-# Prerequisites
-*.d
+# Build artifacts
+build/
+bin/
 
-# Compiled Object files
+# Compiled files
+*.d
+*.o
+*.out
+*.exe
+*.app
+led_blink
+
+# Object files
 *.slo
 *.lo
-*.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Precompiled headers
+*.gch
+*.pch
 
-# .gitignore for C++ project
-# Compiled files
-*.o
-*.out
-led_blink
-*.exe
+# Fortran module files
+*.mod
+*.smod
 
-# Build directories
-build/
-bin/
-
-# IDE specific files
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
