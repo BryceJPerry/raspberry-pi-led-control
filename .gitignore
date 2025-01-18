@@ -30,3 +30,23 @@
 *.exe
 *.out
 *.app
+
+# .gitignore for C++ project
+# Compiled files
+*.o
+*.out
+led_blink
+*.exe
+
+# Build directories
+build/
+bin/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# System files
+.DS_Store
