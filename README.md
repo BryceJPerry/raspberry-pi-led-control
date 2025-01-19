@@ -74,5 +74,3 @@ sudo pigpiod
 ## License
 MIT
 ```
-
-Would you like me to add any additional sections to the README or expand on any part of the documentation?
