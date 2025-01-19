@@ -70,7 +70,3 @@ sudo pigpiod
 - The program must be run with sudo due to GPIO access requirements
 - Make sure the pigpiod daemon is running before starting the program
 - The program uses GPIO18 by default (can be changed in LED_PIN define)
-
-## License
-MIT
-```
